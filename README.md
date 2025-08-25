@@ -71,3 +71,34 @@ Columnas principales:
 - [Matplotlib](https://matplotlib.org/) / [Seaborn](https://seaborn.pydata.org/) para visualización.  
 - Opcional: [Transformers](https://huggingface.co/transformers/) para BERT.  
 
+---
+
+## Instalacion y ejecución:
+
+1) Clonar este repositorio y acceder a la carpeta del proyecto:
+   git clone https://github.com/SMVictorOrtiz/Film_Junky_Union_Project.git
+   cd Film_Junky_Union_Project
+
+2) (Opcional, recomendado) Crear y activar un entorno virtual:
+   # En macOS / Linux:
+   python3 -m venv .venv
+   source .venv/bin/activate
+
+   # En Windows (PowerShell):
+   python -m venv .venv
+   .venv\Scripts\Activate.ps1
+
+3) Instalar las dependencias necesarias:
+   pip install -r requirements.txt
+
+4) Iniciar Jupyter Notebook y abrir el archivo principal:
+   jupyter notebook Project_16_AprendizajeAutomaticoParaTextos.ipynb
+
+5) Ejecutar todas las celdas en orden para reproducir el análisis, el entrenamiento de modelos y la evaluación.
+
+
+NOTAS IMPORTANTES:
+- El dataset utilizado (imdb_reviews.tsv) debe descargarse desde la fuente original (Maas et al., 2011).
+- Coloca el archivo imdb_reviews.tsv en la ubicación esperada (carpeta raíz o la que indique el notebook).
+- Si incluyes experimentos con BERT embeddings, recuerda que requieren mayor potencia de cómputo. 
+  En CPU solo es recomendable usar una muestra reducida del dataset.
