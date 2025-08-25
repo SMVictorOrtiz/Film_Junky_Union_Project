@@ -16,7 +16,7 @@ Entrenar un modelo de clasificación de reseñas de películas del conjunto de d
 
 El conjunto de datos proviene de **Maas et al. (2011), "Learning Word Vectors for Sentiment Analysis"**, ACL 2011.  
 
-Archivo: `imdb_reviews.tsv`  
+Archivo: `[imdb_reviews.tsv](https://practicum-content.s3.us-west-1.amazonaws.com/datasets/imdb_reviews.tsv?etag=bbd4a8dc10e6cf1280c42d7350105c41)`  
 
 Columnas principales:  
 
